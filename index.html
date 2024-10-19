@@ -1,25 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- <!-- <!DOCTYPE html>
+ <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Application</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional: Link to your CSS file -->
+    <link rel="stylesheet" href="styles.css"> <!-- Optional: Link to your CSS file 
 </head>
-<body>
+<!-- <body>
     <header>
         <h1>Weather Application</h1>
     </header>
     
     <main>
-        <!-- Search Section -->
-        <section id="search-section">
+        <!-- Search Section  -->
+        <!-- <section id="search-section">
             <input type="text" id="city-input" placeholder="Enter City Name" required>
             <button id="search-btn">Get Weather</button>
-        </section>
+        </section> -->
 
         <!-- Weather Information Section -->
-        <section id="weather-info">
+        <!-- <section id="weather-info">
             <div class="weather-details">
                 <p id="city-name">City: --</p>
                 <p id="temperature">Temperature: --</p>
@@ -30,8 +30,47 @@
 
     <footer>
         <p>&copy; 2024 Weather App</p>
-    </footer>
+    </footer> -->
 
-    <script src="script.js"></script> <!-- Optional: Link to your JavaScript file -->
+    <!-- <script src="script.js"></script> Optional: Link to your JavaScript file -->
+<!-- </body> 
+</html>   -->
+
+
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div class="search-box">
+      <input type="text" id="city-input" placeholder="Enter a city name" /> -->
+      <button id="search-btn">Get Weather</button>
+    </div>
+
+    <div class="current-weather">
+      <h2>Current Weather</h2>
+      <div id="current-weather-display">
+        <!-- Weather data will be displayed here -->
+      </div>
+    </div>
+
+    <div class="forecast">
+      <h2>3-Day Forecast</h2>
+      <div id="forecast-display">
+        <!-- Forecast data will be displayed here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
 </body>
 </html>
+
